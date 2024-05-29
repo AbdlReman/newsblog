@@ -13,10 +13,11 @@ const ResturantSec = (props) => {
               <div className=" pl-70">
                 {/* <h2 className="border-text">Amenities</h2> */}
                 <h2 className="text-white">
-                  Gourmet Kitchen
+                  Viral Content
                   <br />
-                  Fitness Center
-                  <br /> Spa-like Bathroom
+                  Lifestyle
+                  <br />
+                  Technology
                 </h2>
               </div>
             </div>

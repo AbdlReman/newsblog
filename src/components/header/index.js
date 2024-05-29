@@ -52,7 +52,7 @@ const Header = (props) => {
                 <i className="fa fa-map-marker"></i>
                 <h6>
                   <span>Address:</span>
-                  FaslaBad | Pakistan
+                  Faisalabad | Pakistan
                 </h6>
               </li>
               <li>
@@ -223,21 +223,21 @@ const Header = (props) => {
             </div>
             <div className="social-icons">
               <a
-                href="https://twitter.com/JhelumVillas"
+                href="https://www.tiktok.com/@hipnocastor?_t=8mfw2Lo2mYL&_r=1"
                 target="_blank"
                 rel="noreferrer"
               >
-                <i className="fa fa-twitter"></i>
+                <i className="fa fa-tiktok"></i>
               </a>
               <a
-                href="https://www.facebook.com/profile.php?id=100090550677345"
+                href="https://www.facebook.com/abid.wehnival.9?mibextid=ZbWKwL"
                 target="_blank"
                 rel="noreferrer"
               >
                 <i className="fa fa-facebook"></i>
               </a>
               <a
-                href="https://www.instagram.com/victory.villas?igsh=czVybjl4b21ibTg1"
+                href="https://www.instagram.com/abid5.50?igsh=Nms3b3huMnBxNTg2"
                 target="_blank"
                 rel="noreferrer"
               >

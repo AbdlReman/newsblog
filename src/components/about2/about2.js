@@ -9,29 +9,29 @@ const About2 = (props) => {
           <div className="col-lg-7">
             <div className="about-image mr-50 rmr-0">
               <div className="experience-year">
-                <span className="number">25</span>
-                <h4>Years of Experience</h4>
+                <span className="number">5</span>
+                <h4>Years of Working</h4>
               </div>
             </div>
           </div>
           <div className="col-lg-5">
             <div className="wp-content about-content mb-10 ml-50  rmb-50">
               <div className="section-title mb-10">
-                <h6>BEST ARCHITECT</h6>
+                <h6>About</h6>
                 <h2>
-                  Luxury <br />
-                  <span className="thin">Villas,</span>
+                  Fashion <br />
+                  <span className="thin">& Beauty</span>
                 </h2>
-                <h6>a higher mark of lifestyle!</h6>
+                <h6>Higher mark of Viral Content!</h6>
                 <p>
-                  Welcome to Victory Villas to discover your new home! Maidaan
-                  provides a range of villas and houses tailored to luxury,
-                  client preferences, and financial circumstances. We construct
-                  villas/homes and offer them for sale as per the needs and
-                  aspirations of our clients. Our villas are available in
-                  multiple sizes across Pakistan. Discover Maidaan as an exact
-                  destination where turnkey solutions through VV alleviate all
-                  worries.
+                  we believe in the power of staying ahead. Our mission is to
+                  bring you the freshest trends and most exciting developments
+                  from around the globe. Whether it's the latest fashion craze
+                  taking over Instagram, a groundbreaking tech innovation, or a
+                  health trend that everyone's buzzing about, you'll find it
+                  here first. We sift through the noise to bring you the trends
+                  that matter, ensuring you’re always one step ahead in the
+                  ever-evolving landscape of what’s popular.
                 </p>
               </div>
               {/* <img src={abimg} alt="" /> */}

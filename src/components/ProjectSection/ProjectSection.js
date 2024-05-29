@@ -7,9 +7,13 @@ const ProjectSection = (props) => {
       <div className="container">
         <div className="section-title mb-75">
           <h2>
-            Choose <span className="thin">Victory Villas</span>
+            Mahar <span className="thin">Blogs</span>
           </h2>
-          <p>Distinctive Living Options to Suit Your Style</p>
+          <p>
+            {" "}
+            Our Blog is more than just a blog it's a community of trend
+            enthusiasts
+          </p>
         </div>
         <div className="apartment-carousel">
           <div className="row">

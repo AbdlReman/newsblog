@@ -1,8 +1,8 @@
 import React from "react";
 import Bg from "../../images/team/team-bg.png";
-import team1 from "../../images/team/team1.png";
-import team2 from "../../images/team/team2.png";
-import team3 from "../../images/team/team3.png";
+import team1 from "../../images/apartment/4.jpeg";
+import team2 from "../../images/apartment/1.jpeg";
+import team3 from "../../images/apartment/3.jpeg";
 import { Link } from "react-router-dom";
 
 const TeamSection = (props) => {
@@ -15,7 +15,7 @@ const TeamSection = (props) => {
         <div className="container">
           <div className="section-title text-white text-center mb-55">
             <h2>
-              Victory <span className="thin">Villas</span>
+              trend <span className="thin">Hub</span>
             </h2>
             <h6>Realize your dream of a luxurious home.</h6>
           </div>
@@ -24,12 +24,12 @@ const TeamSection = (props) => {
               <div className="team-item">
                 <img src={team1} alt="Team" />
                 <div className="team-des">
-                  <Link to="/silvervillas" className="text-white">
-                    <h3>Silver Villas</h3>
+                  <Link to="/about" className="text-white">
+                    <h3>About US</h3>
                   </Link>
 
                   <span>
-                    Witness Classic single-storied design, Area: 1250.00 sq ft{" "}
+                    Learn about our mission to bring you the latest trends
                   </span>
                 </div>
               </div>
@@ -38,11 +38,11 @@ const TeamSection = (props) => {
               <div className="team-item">
                 <img src={team2} alt="Team" />
                 <div className="team-des">
-                  <Link to="/goldenvillas" className="text-white">
-                    <h3>Golden Villas</h3>
+                  <Link to="/contact" className="text-white">
+                    <h3>Contact us</h3>
                   </Link>
                   <span>
-                    Turn on a luxurious Double Unit Living, Area: 2120.00 sq ft{" "}
+                    Get in touch . We’re here to answer your questions,
                   </span>
                 </div>
               </div>
@@ -51,11 +51,11 @@ const TeamSection = (props) => {
               <div className="team-item">
                 <img src={team3} alt="Team" />
                 <div className="team-des">
-                  <Link to="/diamondvillas" className="text-white">
-                    <h3>Daimond Villas</h3>
+                  <Link to="/blog" className="text-white">
+                    <h3>Our Blogs</h3>
                   </Link>
                   <span>
-                    Enjoy a Captivating Corner Location, Area: 1970.00 sq ft{" "}
+                    Stay updated with Maharsahb' blog. Dive into articles
                   </span>
                 </div>
               </div>

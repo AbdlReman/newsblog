@@ -1,5 +1,5 @@
 import React from "react";
-import Bg from "../../images/wp/bg.jpg";
+
 import abimg1 from "../../images/4.jpeg";
 import abimg2 from "../../images/4.jpeg";
 import abimg3 from "../../images/2.jpeg";

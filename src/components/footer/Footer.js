@@ -36,7 +36,7 @@ const Footer = (props) => {
       <footer className="footer-section pt-220">
         <div className="container">
           <div className="row align-items-center">
-            <div className="col-xl-6 col-lg-8">
+            <div className="col-xl-5 col-lg-6">
               <div className="instagram-posts">
                 {images.map((item, index) => (
                   <div className="instagram-item" key={index}>
@@ -54,14 +54,14 @@ const Footer = (props) => {
             </div>
             <div className="col-xl-6 col-lg-4">
               <div className="contact-widget">
-                <h3>Get in touch for a deal today.</h3>
+                <h3>Get in touch .</h3>
                 <h6>
-                  To accomplish luxury, functionality, and urbanized elegance,
-                  contact us at (+92) 304-111-3309
+                  Get in touch with Maharsahb. We’re here to answer your
+                  questions, receive your feedback,
                 </h6>
                 <h6>
-                  Airport Green Gardens, near Islamabad International Airport,
-                  Islamabad.
+                  and provide support regarding our trending content (+92) 332
+                  495 2550
                 </h6>
               </div>
             </div>
@@ -71,13 +71,22 @@ const Footer = (props) => {
           <div className="container">
             <div className="bottom-inner">
               <div className="social-icons">
-                <Link onClick={ClickHandler} to="/">
-                  <i className="fa fa-twitter"></i>
+                <Link
+                  onClick={ClickHandler}
+                  to="https://www.tiktok.com/@hipnocastor?_t=8mfw2Lo2mYL&_r=1"
+                >
+                  <i className="fa fa-tiktok"></i>
                 </Link>
-                <Link onClick={ClickHandler} to="/">
+                <Link
+                  onClick={ClickHandler}
+                  to="https://www.facebook.com/abid.wehnival.9?mibextid=ZbWKwL"
+                >
                   <i className="fa fa-facebook"></i>
                 </Link>
-                <Link onClick={ClickHandler} to="/">
+                <Link
+                  onClick={ClickHandler}
+                  to="https://www.instagram.com/abid5.50?igsh=Nms3b3huMnBxNTg2"
+                >
                   <i className="fa fa-instagram"></i>
                 </Link>
               </div>
@@ -85,7 +94,7 @@ const Footer = (props) => {
                 <p>
                   © Copyright 2024 by{" "}
                   <Link onClick={ClickHandler} to="/">
-                    Victory Villas
+                    Maharsahb
                   </Link>
                 </p>
               </div>

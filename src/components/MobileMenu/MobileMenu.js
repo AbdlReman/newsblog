@@ -18,28 +18,28 @@ const menus = [
     link: "/about",
   },
 
-  {
-    id: 6,
-    title: "Victory Villas",
-    link: "/victoryvillas",
-    submenu: [
-      {
-        id: 61,
-        title: "Silver Villas",
-        link: "/silvervillas",
-      },
-      {
-        id: 62,
-        title: "Golden Villas",
-        link: "/goldenvillas",
-      },
-      {
-        id: 63,
-        title: "Diamond Villas",
-        link: "/diamondvillas",
-      },
-    ],
-  },
+  // {
+  //   id: 6,
+  //   title: "Victory Villas",
+  //   link: "/victoryvillas",
+  //   submenu: [
+  //     {
+  //       id: 61,
+  //       title: "Silver Villas",
+  //       link: "/silvervillas",
+  //     },
+  //     {
+  //       id: 62,
+  //       title: "Golden Villas",
+  //       link: "/goldenvillas",
+  //     },
+  //     {
+  //       id: 63,
+  //       title: "Diamond Villas",
+  //       link: "/diamondvillas",
+  //     },
+  //   ],
+  // },
   // {
   //   id: 7,
   //   title: "Service",
@@ -57,23 +57,11 @@ const menus = [
   //     },
   //   ],
   // },
-  // {
-  //   id: 5,
-  //   title: "Blog",
-  //   link: "/blog",
-  //   submenu: [
-  //     {
-  //       id: 51,
-  //       title: "Blog",
-  //       link: "/blog",
-  //     },
-  //     {
-  //       id: 52,
-  //       title: "Blog single",
-  //       link: "/blog-single/Serverless-Stream-Based-Processing",
-  //     },
-  //   ],
-  // },
+  {
+    id: 5,
+    title: "Blog",
+    link: "/blog",
+  },
   {
     id: 88,
     title: "Contact",

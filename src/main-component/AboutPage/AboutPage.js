@@ -4,8 +4,7 @@ import Navbar from "../../components/Navbar/Navbar";
 import Scrollbar from "../../components/scrollbar/scrollbar";
 import Footer from "../../components/footer/Footer";
 import About2 from "../../components/about2/about2";
-import ServiceSection from "../../components/ServiceSection/ServiceSection";
-import FunFact from "../../components/FunFact";
+
 import TeamSection from "../../components/TeamSection/TeamSection";
 import VideoSection from "../../components/VideoSection/VideoSection";
 import { metaData } from "../../api/metaData";
@@ -31,7 +30,7 @@ const AboutPage = () => {
       <TeamSection />
       {/*villas section */}
 
-      <VideoSection />
+      {/* <VideoSection /> */}
       <Footer />
       <Scrollbar />
     </Fragment>
