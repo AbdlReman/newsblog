@@ -7,7 +7,7 @@ const BlogSingle = ({ blog }) => {
   if (!blog) {
     return <p>Loading...</p>;
   }
-  const articleUrl = `https://victoryvillas.pk/blog/${blog.slug}`;
+  const articleUrl = `https://mahersahb.com/blog/${blog.slug}`;
   console.log(blog.slug);
 
   const shareUrl = encodeURIComponent(articleUrl);
